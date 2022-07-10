@@ -1,0 +1,17 @@
+.newAndPopularPageBody {
+    padding-top: 80px;
+    background-color: #141414;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 10px;
+    overflow: visible;
+    animation: PageTrans 1s linear;
+    width: 100%;
+    height: max-content;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+.newAndPopularPageBody h2 {
+    margin-left: 10px;
+}

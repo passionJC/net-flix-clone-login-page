@@ -1,0 +1,42 @@
+.moviesList{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    flex-wrap: wrap;
+    max-width: 90vw;
+    gap: 10px;
+}
+
+.moviePoster {
+    max-width: 170px;
+}
+
+.moviePoster img {
+    object-fit: contain;
+    width: 100%;
+    max-height: 270px;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.moviePoster img:hover {
+    transform: scale(1.08);
+}
+
+.noResults {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .moviesList{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90vw;
+        gap: 10px;
+    }
+
+    .moviePoster img {
+        max-height: 150px;
+    }
+}

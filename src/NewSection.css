@@ -1,0 +1,19 @@
+.newSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 90vw;
+    margin-bottom: 5px;
+}
+
+.newSectionPosterImg {
+    max-height: 270px;
+    cursor: pointer;
+    transition: transform .3s;
+    flex-shrink: 1;
+    width: 170px;
+}
+
+.newSectionPosterImg:hover {
+    transform: scale(1.09);
+}

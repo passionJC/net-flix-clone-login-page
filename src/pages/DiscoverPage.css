@@ -1,0 +1,13 @@
+.discoverPageBody {
+    background-color: #141414;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 10px;
+    overflow: visible;
+    animation: PageTrans 1s linear;
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
